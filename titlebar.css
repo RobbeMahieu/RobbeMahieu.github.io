@@ -1,0 +1,35 @@
+ .navItem{
+	text-decoration: none;
+	text-align: center;
+	margin: auto 10px;
+ }
+ 
+ .navItem:hover{
+	 color: var(--secondary);
+ }
+ 
+ .navSection{
+	flex-grow: 1;
+	margin: auto 20px;
+ }
+ 
+ .navLinks{
+	 justify-content: flex-end;
+ }
+ 
+ #topBar{
+	height: clamp(50px, 10vw, 75px);
+	width: 100%;
+	margin: auto 0;
+	position: fixed;
+	top: 0;
+	background-color: var(--accent);
+	justify-content: space-between	;
+ }
+ 
+ @media all and (max-width: 700px) {
+	  .navItem {
+		display: none;
+	  }
+	  
+  }

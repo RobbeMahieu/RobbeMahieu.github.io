@@ -1,0 +1,9 @@
+#intro{
+	height: clamp(20vh, 400px, 50vh);
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url("assets/images/placeholder.png");
+	background-position: center;
+	background-size: cover;
+}
