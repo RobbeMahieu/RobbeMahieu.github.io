@@ -7,6 +7,6 @@ window.onload = function(){
 	document.getElementById("intro").innerHTML = intro;
 	
 	// Add portfolio
-	document.getElementById("portfolio").innerHTML = portfolio;
+	document.getElementById("portfolio").innerHTML = CreatePortfolio();
 	
 }
