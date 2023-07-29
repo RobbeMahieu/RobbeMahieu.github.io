@@ -1,0 +1,2 @@
+C:\Robbe\Portfolio\RobbeMahieu.github.io\Portfolio\Portfolio\obj\Debug\Portfolio.esproj.SuggestedBindingRedirects.cache
+C:\Robbe\Portfolio\RobbeMahieu.github.io\Portfolio\Portfolio\obj\Debug\Portfolio.esproj.CoreCompileInputs.cache
