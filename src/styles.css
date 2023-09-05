@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~reset.css';
+
+/* Variables */
+:root {
+  --primary: #FFFFFF;
+  --secondary: #1F5A73;
+  --secondary-dark: #0F2F3D;
+  --overlay: rgba(0,0,0,0.47);
+  --overlay-dark: rgba(0,0,0,0.70);
+}
+
+/* Text styles */
+[class*=text-] {
+  font-family: Courier;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+[class*=-bold]{
+    font-weight: 700;
+}
+
+[class*=-title] {
+  font-size: 24px;
+}
+
+[class*=-screamer] {
+  font-size: 30px;
+}

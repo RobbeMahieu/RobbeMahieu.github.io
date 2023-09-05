@@ -1,0 +1,26 @@
+<div id="modal" (click)="$event.stopPropagation()">
+  <div id="gallery" [style.background-image]="'url(../../assets/images/' + project.title + '/' + project.images[galleryIndex] + '.png)'">
+    <p class="text-screamer-bold" id="leftArrow" (click)="ChangeIndex(-1)">◀</p>
+    <div>
+      <div *ngFor="let image of project.images; let imageIndex = index">
+        <p *ngIf="imageIndex != galleryIndex" class="text-screamer">○</p>
+        <p *ngIf="imageIndex == galleryIndex" class="text-screamer">●</p>
+      </div>
+    </div>
+    <p class="text-screamer-bold" id="rightArrow" (click)="ChangeIndex(1)">▶</p>
+  </div>
+
+  <div>
+    <div id="description">
+      <p class="text-screamer-bold">{{project.title | uppercase}}</p>
+      <p class="text-title-bold">{{project.tagline}}</p>
+      <p class="text-title">{{project.description}}</p>
+
+      <div id="links" *ngIf="project.links.length > 0">
+        <img *ngFor="let link of project.links; let linkIdex = index" src="assets/images/placeholder.png" />
+      </div>
+
+    </div>
+  </div>
+
+</div>

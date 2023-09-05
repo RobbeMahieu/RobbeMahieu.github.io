@@ -1,0 +1,8 @@
+#projectcards{
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+
+    overflow-x: scroll;
+}

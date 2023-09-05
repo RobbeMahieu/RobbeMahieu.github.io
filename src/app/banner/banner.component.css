@@ -1,0 +1,36 @@
+#banner {
+  background-image:
+      linear-gradient(to bottom, var(--overlay), var(--overlay)),
+      url('../../assets/images/wallpaper.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  display:flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  text-shadow: 1px 1px var(--overlay);
+}
+
+#banner > *{
+    width: 60%;
+}
+
+#intro{
+    margin: 10px 0;
+}
+
+#links img{
+    width: 30px;
+    height: 30px;
+}
+
+#links {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  justify-content: flex-start;
+}

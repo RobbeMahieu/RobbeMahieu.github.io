@@ -1,0 +1,10 @@
+<div id="banner">
+  <p class="text-screamer-bold">{{title}}</p>
+  <p class="text-title-bold">{{subtitle}}</p>
+  <p id="intro" class="text-subtitle">{{paragraph}}</p>
+
+  <div id="links" *ngIf="links.length > 0">
+    <img *ngFor="let link of links" src="assets/images/placeholder.png" />
+  </div>
+</div>
+

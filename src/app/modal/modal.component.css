@@ -1,0 +1,83 @@
+:host {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-dark);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+}
+
+#modal {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  background-color: var(--primary);
+}
+
+#modal > div{
+    width: 50%;
+    height: 100%;
+}
+
+#gallery{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  #gallery > div {
+    display: flex;
+    height: 100%;
+    padding-bottom: 50px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+#leftArrow {
+  height: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--overlay));
+  line-height: 80vh;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+#rightArrow {
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--overlay));
+  line-height: 80vh;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#description {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  align-items: flex-end;
+  padding: 50px;
+
+}
+
+#links img {
+  width: 30px;
+  height: 30px;
+}
+
+#links {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  justify-content: flex-end;
+}

@@ -1,0 +1,26 @@
+:host {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: var(--secondary-dark);
+  color: var(--primary);
+  opacity: 94%;
+}
+
+#nav-title {
+  float: left;
+  height: inherit;
+  margin: auto 30px;
+  line-height: 2;
+}
+
+#nav-links {
+  float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: inherit;
+  gap: 20px;
+  margin: auto 30px;
+}
