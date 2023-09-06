@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Magnets!",
+    "tagline": "Unity",
+    "description": "",
+    "images": [ "gameplay.gif", "countdown.gif" ],
+    "links": [
+      {
+        "site": "itch",
+        "link": "https://sander-de-keukelaere.itch.io/magnets"
+      }
+    ]
+  },
+  {
+    "title": "Ball-A-Site",
+    "tagline": "C++ Unreal",
+    "description": "Grads in Games Rising Star 2023 Winner \n\nFor the Rising Star competition, I was asked to create a game, starting from a giving project. I created a game in a week where you need to capture orbs that are wandering around a planet. The orbs get more difficult to catch in later levels. Every step of the creation of this game is documented on the link below.",
+    "images": [ "cover.png", "gameplay.gif", "screen1.PNG" ],
+    "links": [
+      {
+        "site": "itch",
+        "link": "https://mear.itch.io/ballasite"
+      }
+    ]
+  }
+
+
+]
