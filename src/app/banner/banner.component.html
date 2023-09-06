@@ -4,7 +4,7 @@
   <p id="intro" class="text-subtitle">{{paragraph}}</p>
 
   <div id="links" *ngIf="links.length > 0">
-    <img *ngFor="let link of links" src="assets/images/placeholder.png" />
+    <a *ngFor="let link of links" href="{{link.link}}" target="_blank"><img src="assets/images/links/{{link.site}}.png"></a>
   </div>
 </div>
 

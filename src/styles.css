@@ -10,7 +10,7 @@
 }
 
 /* Text styles */
-[class*=text-] {
+[class*=text] {
   font-family: Courier;
   font-size: 18px;
   font-style: normal;

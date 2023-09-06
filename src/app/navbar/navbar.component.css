@@ -1,11 +1,12 @@
 :host {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 50px;
   background: var(--secondary-dark);
   color: var(--primary);
   opacity: 94%;
+  z-index: 5;
 }
 
 #nav-title {
@@ -24,3 +25,9 @@
   gap: 20px;
   margin: auto 30px;
 }
+
+  #nav-links a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+  }
