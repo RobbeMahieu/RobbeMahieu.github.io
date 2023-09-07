@@ -1,9 +1,9 @@
 [
   {
     "title": "Magnets!",
-    "tagline": "Unity",
-    "description": "",
-    "images": [ "gameplay.gif", "countdown.gif" ],
+    "tagline": "C# Unity",
+    "description": "MAGNETS! is a local multiplayer, player vs. player, sumo game where you need to push all of your friends out of the ring (and maybe ruin some friendships along the way). \n\nBut there's a twist! Every object, (YES! Even the sumo wrestlers) are magnets, so you'll attract or repel other players AND objects (like bullets and bombs) that get thrown your way!\n\nThe last magnet standing wins the round!",
+    "images": [ "cover.jpg", "gameplay.gif", "screen1.png", "countdown.gif", "screen2.png" ],
     "links": [
       {
         "site": "itch",
