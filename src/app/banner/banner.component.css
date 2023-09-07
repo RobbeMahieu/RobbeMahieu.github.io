@@ -29,6 +29,11 @@
     filter: invert();
 }
 
+#links img:hover {
+  filter: invert() brightness(50%);
+  cursor: pointer;
+}
+
 #links {
   display: flex;
   flex-flow: row nowrap;

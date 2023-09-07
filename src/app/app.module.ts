@@ -9,7 +9,6 @@ import { ModalComponent } from './modal/modal.component';
 import { HttpClientModule } from '@angular/common/http';
 
 // Build command: ng deploy --base-href=/RobbeMahieu.github.io/
-
 @NgModule({
   declarations: [
     AppComponent,

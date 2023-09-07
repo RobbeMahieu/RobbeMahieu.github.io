@@ -29,5 +29,9 @@
   #nav-links a {
     color: inherit;
     text-decoration: inherit;
+  }
+
+  #nav-links a:hover {
     cursor: pointer;
+    filter: brightness(50%);
   }

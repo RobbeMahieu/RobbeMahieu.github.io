@@ -16,14 +16,14 @@
 }
 
 #modal {
-  width: 60%;
+  width: 80%;
   height: 80%;
   display: flex;
   background-color: var(--primary);
 }
 
 #modal > div{
-    width: 50%;
+    width: 35%;
     height: 100%;
 }
 
@@ -37,6 +37,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--primary);
+    flex-grow: 2;
 }
 
   #gallery > div {
@@ -52,16 +53,24 @@
   background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--overlay));
   line-height: 80vh;
   padding-left: 10px;
-  cursor: pointer;
 }
+
+  #leftArrow:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+  }
 
 #rightArrow {
   height: 100%;
   background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--overlay));
   line-height: 80vh;
   padding-right: 10px;
-  cursor: pointer;
 }
+
+  #rightArrow:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+  }
 
 #description {
   display: flex;
@@ -69,13 +78,17 @@
   gap: 10px;
   align-items: flex-end;
   padding: 50px;
-
 }
 
 #links img {
   width: 40px;
   height: 40px;
 }
+
+  #links img:hover {
+    cursor: pointer;
+    filter: invert() brightness(25%);
+  }
 
 #links {
   padding-top:50px;
