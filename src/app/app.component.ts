@@ -32,6 +32,6 @@ export class AppComponent  implements OnInit{
   }
 
   private LoadProjects() {
-    return this.http.get<Project[]>("assets/projects.json");
+    return this.http.get<Project[]>("/assets/projects.json");
   }
 }

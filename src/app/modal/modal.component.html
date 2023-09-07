@@ -1,5 +1,5 @@
 <div id="modal" (click)="$event.stopPropagation()">
-  <div id="gallery" [style.background-image]="'url(../../assets/images/' + project.title + '/' + project.images[galleryIndex] + ')'">
+  <div id="gallery" [style.background-image]="'url(/assets/images/' + project.title + '/' + project.images[galleryIndex] + ')'">
     <p class="text-screamer-bold" id="leftArrow" (click)="ChangeIndex(-1)">◀</p>
     <div>
       <div *ngFor="let image of project.images; let imageIndex = index">
@@ -17,7 +17,7 @@
       <p class="text">{{project.description}}</p>
 
       <div id="links" *ngIf="project.links.length > 0">
-        <a *ngFor="let link of project.links" href="{{link.link}}" target="_blank"><img src="assets/images/links/{{link.site}}.png"></a>
+        <a *ngFor="let link of project.links" href="{{link.link}}" target="_blank"><img src="/assets/images/links/{{link.site}}.png"></a>
       </div>
 
     </div>

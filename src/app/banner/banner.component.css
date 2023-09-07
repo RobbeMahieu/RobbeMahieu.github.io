@@ -1,7 +1,7 @@
 #banner {
   background-image:
       linear-gradient(to bottom, var(--overlay), var(--overlay)),
-      url('../../assets/images/wallpaper.png');
+      url('/assets/images/Wallpaper.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
