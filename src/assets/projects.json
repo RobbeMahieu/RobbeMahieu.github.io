@@ -8,6 +8,10 @@
       {
         "site": "itch",
         "link": "https://sander-de-keukelaere.itch.io/magnets"
+      },
+      {
+        "site": "youtube",
+        "link": "https://youtu.be/LrhZ_1qrnKU"
       }
     ]
   },
@@ -22,7 +26,45 @@
         "link": "https://mear.itch.io/ballasite"
       }
     ]
+  },
+  {
+    "title": "Pengo_Clone",
+    "tagline": "C++ Game Engine",
+    "description": "This Pengo clone is a Win32 project, created fully from scratch. This game was created to showcase the capabilities of the game engine. \n\nThe game engine contains:\n* Component system\n* Audio system on a seperate thread\n* Event system\n* Subject-Observer pattern\n* Input system\n\n The game also supports up to two players.",
+    "images": [ "screen1.png", "gameplay.gif" ],
+    "links": [
+      {
+        "site": "github",
+        "link": "https://github.com/RobbeMahieu/Prog4_Mahieu_Robbe_Pengo"
+      }
+    ]
+  },
+  {
+    "title": "Stochastic_Grammar",
+    "tagline": "C++",
+    "description": "Classes to construct stochastic grammar and create sequences following that grammar. It supports sequence rules, selection rules, repetition rules and recursion. \n\nThese are generic classes, so the generated sequences can be an array of any type of object (from a string to an enemy). It contains functions to create grammar based on a given string.",
+    "images": [ "Rivers.gif", "LSystem.gif", "items.png" ],
+    "links": [
+      {
+        "site": "github",
+        "link": "https://github.com/RobbeMahieu/GGP_StochasticGrammar"
+      }
+    ]
+  },
+  {
+    "title": "Amba_The_Witch",
+    "tagline": "Unreal VR",
+    "description": "Amber recently graduated from the University of Witchcraft and today marks the opening day to her brand new potion shop! Can you help her to complete the orders for her customers?\n\nBut you better be careful, as mixing wrong ingredients can have unexpected outcomes.",
+    "images": [ "screen1.png" ],
+    "links": [
+      {
+        "site": "itch",
+        "link": "https://sixarne.itch.io/amber-the-witch"
+      },
+      {
+        "site": "youtube",
+        "link": "https://youtu.be/ZPIioBiln14"
+      }
+    ]
   }
-
-
 ]

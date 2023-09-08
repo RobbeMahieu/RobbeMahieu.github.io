@@ -91,9 +91,9 @@
   }
 
 #links {
-  padding-top:50px;
+  padding-top:20px;
   display: flex;
   flex-flow: row nowrap;
-  gap: 20px;
+  gap: 10px;
   justify-content: flex-end;
 }
