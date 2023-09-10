@@ -5,12 +5,10 @@
   top: 0;
   left: 0;
   background-color: var(--overlay-dark);
-
+  color: var(--secondary-dark);
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   z-index: 1000;
   white-space: pre-line;
 }

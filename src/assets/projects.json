@@ -18,7 +18,7 @@
   {
     "title": "Ball-A-Site",
     "tagline": "C++ Unreal",
-    "description": "Grads in Games Rising Star 2023 Winner \n\nFor the Rising Star competition, I was asked to create a game, starting from a giving project. I created a game in a week where you need to capture orbs that are wandering around a planet. The orbs get more difficult to catch in later levels. Every step of the creation of this game is documented on the link below.",
+    "description": "Grads in Games Rising Star 2023 Winner \n\nFor the Rising Star competition, I was asked to create a game, starting from a given project. I created a game in one week, where you need to capture orbs that are wandering around a planet. The orbs get more difficult to catch in later levels. Every step of the creation of this game is documented in the link below.",
     "images": [ "cover.png", "gameplay.gif", "screen1.PNG" ],
     "links": [
       {
@@ -54,7 +54,7 @@
   {
     "title": "Amba_The_Witch",
     "tagline": "Unreal VR",
-    "description": "Amber recently graduated from the University of Witchcraft and today marks the opening day to her brand new potion shop! Can you help her to complete the orders for her customers?\n\nBut you better be careful, as mixing wrong ingredients can have unexpected outcomes.",
+    "description": "Amba recently graduated from the University of Witchcraft and today marks the opening day to her brand new potion shop! Can you help her to complete the orders for her customers?\n\nBut you better be careful, as mixing wrong ingredients can have unexpected outcomes.",
     "images": [ "screen1.png" ],
     "links": [
       {

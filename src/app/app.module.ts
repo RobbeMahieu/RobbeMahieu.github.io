@@ -7,6 +7,7 @@ import { BannerComponent } from './banner/banner.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ModalComponent } from './modal/modal.component';
 import { HttpClientModule } from '@angular/common/http';
+import { InfoComponent } from './info/info.component';
 
 // Build command: ng build
 @NgModule({
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     BannerComponent,
     ProjectCardComponent,
-    ModalComponent
+    ModalComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+:host{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    color: var(--secondary-dark);
+}
+
+img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 7px solid var(--secondary);
+}
+
+#description{
+    width: 50vw;
+}
