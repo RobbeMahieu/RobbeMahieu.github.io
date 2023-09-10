@@ -7,6 +7,7 @@
   --secondary-dark: #0F2F3D;
   --overlay: rgba(0,0,0,0.47);
   --overlay-dark: rgba(0,0,0,0.70);
+  --disabled: #c0bcbc
 }
 
 /* Text styles */
@@ -34,4 +35,24 @@
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--disabled);
+  border-radius: 5px;
+}
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
+  }
+
+::-webkit-scrollbar-button{
+    background: transparent;
 }
