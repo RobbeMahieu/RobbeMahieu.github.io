@@ -1,3 +1,7 @@
+<div id="stamps">
+  <img *ngFor="let stamp of project.stamps" src="/assets/images/stamps/{{stamp}}" />
+</div>
+
 <div id="card">
   <p class="text-screamer-bold">{{project.title.replaceAll('_', ' ') | uppercase}}</p>
   <p class="text-title">{{project.tagline}}</p>

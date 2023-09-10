@@ -25,7 +25,8 @@
         "site": "itch",
         "link": "https://mear.itch.io/ballasite"
       }
-    ]
+    ],
+    "stamps":  ["gigWinner.png"]
   },
   {
     "title": "Pengo_Clone",

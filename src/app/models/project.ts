@@ -7,12 +7,14 @@ export class Project {
 
   public images: string[] = [];
   public links: Link[] = [];
+  public stamps?: string[] = [];
 
-  constructor(title: string, tagline: string, description: string, images: string[], links: Link[]) {
+  constructor(title: string, tagline: string, description: string, images: string[], links: Link[], stamps?: string[]) {
     this.title = title;
     this.tagline = tagline;
     this.description = description;
     this.images = images;
     this.links = links;
+    this.stamps = stamps;
   }
 }
