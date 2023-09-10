@@ -2,8 +2,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 40vh;
-  height: 70vh;
+  width: 20vh;
+  height: 35vh;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -40,7 +40,16 @@
 }
 
 #stamps img{
-    width: 75px;
-    height: 75px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 5vw;
+    height: 5vw;
     object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  :host {
+    width: 40vh;
+    height: 70vh;
+  }
 }

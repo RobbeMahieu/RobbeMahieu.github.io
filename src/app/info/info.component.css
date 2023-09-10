@@ -1,6 +1,6 @@
 :host{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     margin: 50px auto;
     justify-content: center;
     align-items: center;
@@ -9,13 +9,28 @@
 }
 
 img {
-  width: 15vw;
-  height: 15vw;
+  width: 25vw;
+  height: 25vw;
   object-fit: cover;
   border-radius: 50%;
   border: 7px solid var(--secondary);
 }
 
 #description{
+    width: 80vw;
+}
+
+@media only screen and (min-width: 768px) {
+  :host {
+    flex-flow: row nowrap;
+  }
+
+  #description {
     width: 50vw;
+  }
+
+  img {
+    width: 15vw;
+    height: 15vw;
+  }
 }
