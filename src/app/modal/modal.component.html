@@ -14,7 +14,7 @@
     <div id="description">
       <p class="text-screamer-bold">{{project.title.replaceAll('_', ' ') | uppercase}}</p>
       <p class="text-title-bold">{{project.tagline}}</p>
-      <p class="text">{{project.description}}</p>
+      <p class="text" id="text-block">{{project.description}}</p>
 
       <div id="links" *ngIf="project.links.length > 0">
         <a *ngFor="let link of project.links" href="{{link.link}}" target="_blank"><img src="/assets/images/links/{{link.site}}.png"></a>
