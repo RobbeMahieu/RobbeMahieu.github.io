@@ -2,7 +2,7 @@
   {
     "title": "Magnets!",
     "tagline": "C# Unity",
-    "description": "MAGNETS! is a local multiplayer, player vs. player, sumo game where you need to push all of your friends out of the ring (and maybe ruin some friendships along the way). \n\nBut there's a twist! Every object, (YES! Even the sumo wrestlers) are magnets, so you'll attract or repel other players AND objects (like bullets and bombs) that get thrown your way!\n\nThe last magnet standing wins the round!",
+    "description": "MAGNETS! is a local multiplayer, player vs. player, sumo game where you need to push all of your friends out of the ring (and maybe ruin some friendships along the way). \n\nBut there's a twist! Every object, (YES! Even the sumo wrestlers) are magnets, so you'll attract or repel other players AND objects (like bullets and bombs) that get thrown your way!\n\nThe last magnet standing wins the round!\n\nMy contributions:\n* Prototyping in Unity and Unreal\n* The central magnet mechanic (attraction and repulsion)\n* UI and HUD programming\n* Adding game juice and polish\n* Gameplay programming (bullet and bomb spawning)\n\n\nThis game was make by a team of 5 people:\nRobbe Mahieu (Programmer)\nSander De Keukelaere (Programmer)\nNina Krutkyté (Artist)\nMiel Vandepitte (Artist)\nBranco Devedeleer (Artist)\n",
     "images": [ "cover.jpg", "gameplay.gif", "screen1.png", "countdown.gif", "screen2.png" ],
     "links": [
       {
@@ -18,7 +18,7 @@
   {
     "title": "Ball-A-Site",
     "tagline": "C++ Unreal",
-    "description": "Grads in Games Rising Star 2023 Winner \n\nFor the Rising Star competition, I was asked to create a game, starting from a given project. I created a game in one week, where you need to capture orbs that are wandering around a planet. The orbs get more difficult to catch in later levels. Every step of the creation of this game is documented in the link below.",
+    "description": "Grads in Games Rising Star 2023 Winner\n\nFor the Rising Star competition, I was asked to create a game on my own, starting from a given project. I created a game in one week, where you need to capture orbs that are wandering around a planet. The orbs get more difficult to catch in later levels. Every step of the creation of this game is documented in the link below.\n\nInvolved topics:\n* Understanding, modifying and expanding an existing codebase\n* Spawning objects on a sphere\n* Unreal C++ and blueprint communication",
     "images": [ "cover.png", "gameplay.gif", "screen1.PNG" ],
     "links": [
       {
@@ -26,12 +26,12 @@
         "link": "https://mear.itch.io/ballasite"
       }
     ],
-    "stamps":  ["gigWinner.png"]
+    "stamps": [ "gigWinner.png" ]
   },
   {
     "title": "Pengo_Clone",
     "tagline": "C++ Game Engine",
-    "description": "This Pengo clone is a Win32 project, created fully from scratch. This game was created to showcase the capabilities of the game engine. \n\nThe game engine contains:\n* Component system\n* Audio system on a seperate thread\n* Event system\n* Subject-Observer pattern\n* Input system\n\n The game also supports up to two players.",
+    "description": "This Pengo clone is a Win32 project, created on my own and fully from scratch. This game was created to showcase the capabilities of the game engine. \n\nThe game engine contains:\n* Component system\n* Audio system on a seperate thread\n* Event system\n* Subject-Observer pattern\n* Input system\n\n The game also supports up to two players.",
     "images": [ "screen1.png", "gameplay.gif" ],
     "links": [
       {
@@ -55,7 +55,7 @@
   {
     "title": "Amba_The_Witch",
     "tagline": "Unreal VR",
-    "description": "Amba recently graduated from the University of Witchcraft and today marks the opening day to her brand new potion shop! Can you help her to complete the orders for her customers?\n\nBut you better be careful, as mixing wrong ingredients can have unexpected outcomes.",
+    "description": "Amba recently graduated from the University of Witchcraft and today marks the opening day to her brand new potion shop! Can you help her to complete the orders for her customers?\n\nBut you better be careful, as mixing wrong ingredients can have unexpected outcomes.\n\nMy contributions:\n* Fluid shader in flask\n* Recipe book interaction\n* Allround problem solver\n* Playtesting\n\nThis game was part of the Unwrap Gamejam and was made by 6 programmers:\nAmber Perard\nStassijns Sam\nDejonckheere Ward\nRobbe Mahieu\nSix Arne\nSiebe Boeckx",
     "images": [ "screen1.png" ],
     "links": [
       {
