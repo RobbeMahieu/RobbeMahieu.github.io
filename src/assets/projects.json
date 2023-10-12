@@ -41,14 +41,14 @@
     ]
   },
   {
-    "title": "Stochastic_Grammar",
+    "title": "Portal_Remake",
     "tagline": "C++",
-    "description": "Classes to construct stochastic grammar and create sequences following that grammar. It supports sequence rules, selection rules, repetition rules and recursion. \n\nThese are generic classes, so the generated sequences can be an array of any type of object (from a string to an enemy). It contains functions to create grammar based on a given string.",
-    "images": [ "Rivers.gif", "LSystem.gif", "items.png" ],
+    "description": "This Portal clone was made in the Overlord engine. This engine uses PhysX and DirectX 10. This project has a strong focus towards graphics programming, where the main challenge is creating the portal effect.\n\nInvolved topics:\n* Direct X\n* Recursive portals\n* Quaternion rotations\n* Shadowm apping\n* Stencil buffer\n* Particle systems\n\nPortal recursion (seeing a portal through a portal) is currently being worked on: It currently supports recursive portals, but those contain some projection artifacts (This is shown in the last image in the gallery).",
+    "images": [ "teleport.gif", "cube.png", "shooting.gif", "portal.png", "room.png", "recursion.gif" ],
     "links": [
       {
         "site": "github",
-        "link": "https://github.com/RobbeMahieu/GGP_StochasticGrammar"
+        "link": "https://github.com/RobbeMahieu/PortalRemake"
       }
     ]
   },
@@ -65,6 +65,18 @@
       {
         "site": "youtube",
         "link": "https://youtu.be/ZPIioBiln14"
+      }
+    ]
+  },
+  {
+    "title": "Stochastic_Grammar",
+    "tagline": "C++",
+    "description": "Classes to construct stochastic grammar and create sequences following that grammar. It supports sequence rules, selection rules, repetition rules and recursion. \n\nThese are generic classes, so the generated sequences can be an array of any type of object (from a string to an enemy). It contains functions to create grammar based on a given string.",
+    "images": [ "Rivers.gif", "LSystem.gif", "items.png" ],
+    "links": [
+      {
+        "site": "github",
+        "link": "https://github.com/RobbeMahieu/GGP_StochasticGrammar"
       }
     ]
   }
