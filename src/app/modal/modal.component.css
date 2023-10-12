@@ -80,7 +80,7 @@
   flex-flow: column nowrap;
   gap: 10px;
   align-items: flex-end;
-  padding: 50px 15px;
+  padding: 15px;
 }
 
 #links img {
@@ -94,7 +94,6 @@
   }
 
 #links {
-  padding-top:20px;
   display: flex;
   flex-flow: row nowrap;
   gap: 10px;
@@ -102,7 +101,7 @@
 }
 
 #text-block{
-    max-height: 50vh;
+    max-height: 25vh;
     overflow: scroll;
 }
 
@@ -126,5 +125,13 @@
 
   #rightArrow {
     line-height: 80vh;
+  }
+
+  #text-block {
+    max-height: 50vh;
+  }
+
+  #description {
+    padding: 50px 15px;
   }
 }
