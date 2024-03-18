@@ -1,5 +1,33 @@
 [
   {
+    "title": "Dont_Forget",
+    "tagline": "C# Unity",
+    "description": "You wake up in a vaguely familiar place with only a journal at your side. You don't know how you got here, but maybe... retracing your steps will help?\n\nExplore the world of Don't Forget as you try to recover your memories in a race against your own deteriorating mind.Complete brain games and find collectables and poems that give you clues into the deeper story behind the missing pieces of who you are.Immerse yourself in the moving soundtrack specially composed for the game.\n\nMy contributions:\n* Prototyping in Unity\n* Back bone system infrastructure (Game state and manager)\n* Stencil buffer shader for the character and walls\n* Writing the story and flavour text\n\n\nThis game was make by a team of 8 people:\nRobbe Mahieu (Programmer)\nSander De Keukelaere (Programmer)\nLee Vangraefschepe (Programmer)\nNina Krutkyté (Artist)\nEvie Verstappen (Artist)\nNiyash Khadka (Artist)\nEve McIntosh (Poet)\nFrederique Le Duc-Moreau (Composer)\n",
+    "images": [ "title.png", "house.png", "hospital.png", "accident.png", "journal.png", "inspect.png", "math.png", "memory.png", "simon.png"],
+    "links": [
+      {
+        "site": "itch",
+        "link": "https://sander-de-keukelaere.itch.io/dont-forget"
+      },
+      {
+        "site": "youtube",
+        "link": "https://www.youtube.com/watch?v=Pf2lxoVuai0"
+      }
+    ]
+  },
+  {
+    "title": "Space_Invaders",
+    "tagline": "x86 Assembly",
+    "description": "With this project, I wanted to understand how to make a game in x86 Assembly by using modern game programming techniques. To show these techniques work, a fully functioning clone of the classic Space Invaders game was made. For this, a mini game engine was created in Assembly that supports sprites, collision, input mapping and has a basic game loop. The rendering is also double buffered.\n\nThis project was made as my graduation work for Howest DAE.\n\nInvolved topics:\n* x86 Assembly\n* Low level Win32 API\n* Game loop\n* Linked list\n* Memory management\n* Game programming patterns\n",
+    "images": [ "finalGame.png", "gameplay.gif" ],
+    "links": [
+      {
+        "site": "github",
+        "link": "https://github.com/RobbeMahieu/AssemblySpaceInvaders"
+      }
+    ]
+  },
+  {
     "title": "Magnets!",
     "tagline": "C# Unity",
     "description": "MAGNETS! is a local multiplayer, player vs. player, sumo game where you need to push all of your friends out of the ring (and maybe ruin some friendships along the way). \n\nBut there's a twist! Every object, (YES! Even the sumo wrestlers) are magnets, so you'll attract or repel other players AND objects (like bullets and bombs) that get thrown your way!\n\nThe last magnet standing wins the round!\n\nMy contributions:\n* Prototyping in Unity and Unreal\n* The central magnet mechanic (attraction and repulsion)\n* UI and HUD programming\n* Adding game juice and polish\n* Gameplay programming (bullet and bomb spawning)\n\n\nThis game was make by a team of 5 people:\nRobbe Mahieu (Programmer)\nSander De Keukelaere (Programmer)\nNina Krutkyté (Artist)\nMiel Vandepitte (Artist)\nBranco Devedeleer (Artist)\n",
